@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Professional Portfolio: Maria Rojas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Professional Portfolio: Maria Rojas">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+          <nav>
+            <ul role='navigation'>
+                <li><a href='#home'>Home Link</a></li>
+                <li><a href='#about'>About Me Link</a></li>
+                <li><a href='#work'>My Work Link</a></li>
+                <li><a href='#contact'>Contact Link</a></li>
+            </ul>
+          </nav>
+    </header>
+    <div id='home'>
+      <h2>HOME</h2>
+    </div>
+    <div id="about">
+      <h2> ABOUT ME </h2>
+      <img src="IMG_5220.jpg" alt="Close up Maria's face" class="me" width="250" 
+      height="200">
+      <p>I am a Community Healthcare Worker for Inova Health Systems in Northern Virginia.  I graduated from George Mason University with a degree in Healthcare Administrator.  I am currently learning how to code through the GCode program so I can make the switch from healthcare to tech.  When I am not learning I am crocheting cute plushies and clothes.  </p>
+    </div>
+    <div id="work">
+      <h2> MY WORK</h2>
+      <a href="https://github.com/mariarojas306">Github Profile</a>
+      <br>
+      <br>
+      <a href="https://www.linkedin.com/in/maria-rojas-zamorano-770222282/">Linkedin Profile</a>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="projects">
+        <div class="admire">Someone I Admire</div>
+        <div class="display">Display and Position Exercise</div>
+        <div class="place">PROJECT 3</div>
+    </div>
+    <div id="contact">
+      <h2>CONTACT INFORMATION </h2>
+        <p>For any questions feel free to contact me through the form below or through 
+            <a href="https://twitter.com/rojasmaria306">Twitter</a>
+            <section class="email">
+                <label for="name">Your Name:</label>
+                <br>
+                      <input type="text" name="name" id="name" size=43>
+              </section>
+            <section class="email">
+                <label for="email">Your Email:</label>
+                <br>
+                      <input type="text" name="email" id="email" size=43>
+              </section>
+              <section class="message">
+                <label for="extra">Your Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="8" cols="35"></textarea>
+              </section>
+              <section class="send">
+                <input type="submit" value="Send Email">
+              </section>
+        </p>
+    </div>
+    <footer>
+        <p>Author: Maria Rojas<br> mariarojas306@gmail.com</p>
+    </footer>
+  </body>
+</html>
+
